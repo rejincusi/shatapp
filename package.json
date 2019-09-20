@@ -8,11 +8,24 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "expo": "^35.0.0",
+    "feathers": "^2.2.4",
+    "feathers-authentication": "^0.7.11",
+    "feathers-hooks": "^2.1.2",
+    "feathers-localstorage": "^5.0.0",
+    "feathers-socketio": "^2.0.1",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react-native-iron-source": "git://github.com/bsy/react-native-iron-source.git",
+    "react-native-router-flux": "^4.0.6",
     "react-native-web": "^0.11.7",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "remote-redux-devtools": "^0.5.16",
+    "socket.io-client": "^2.3.0",
     "tcomb-form-native": "^0.6.20"
   },
   "devDependencies": {
