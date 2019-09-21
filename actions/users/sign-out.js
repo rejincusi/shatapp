@@ -1,5 +1,7 @@
 import API from '../../lib/api';
 
+import { Actions } from 'react-native-router-flux';
+
 export const USER_SIGNED_OUT = 'USER_SIGNED_OUT';
 
 const api = new API();
@@ -9,6 +11,7 @@ export default (user) => {
   return (dispatch) =>{
     api.signOut();
     dispatch(signedOutUser());
+    Actions.signIn()
   }
 }
 
