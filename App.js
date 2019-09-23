@@ -15,7 +15,6 @@ export default class App extends Component {
 
   componentDidMount() {
     AppState.addEventListener('change', this._handleAppStateChange)
-    YellowBox.ignoreWarnings(['Remote debugger']);
   }
 
   componentWillUnmount() {
@@ -32,7 +31,7 @@ export default class App extends Component {
   }
 
   render() {
-    YellowBox.ignoreWarnings(['Warning: ReactNative.createElement'])
+    console.disableYellowBox = true;
     return (
       <Provider store={store}>
         <Router>
