@@ -37,7 +37,7 @@ export default StyleSheet.create({
     borderColor: '#48BBEC',
     borderWidth: 1,
     borderRadius: 8,
-    marginBottom: 10,
+    marginBottom: 100,
     alignSelf: 'stretch',
     justifyContent: 'center'
   },
