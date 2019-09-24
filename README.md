@@ -1,5 +1,5 @@
 # shatapp
-React native chat app
+Simple react native chat app 
 
 # ShatApp Demo
 
